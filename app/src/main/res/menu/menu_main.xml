@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/call"
+        android:title="Call Center"
+        app:showAsAction="never"
+        android:orderInCategory="10">
+    </item>
+
+    <item
+        android:id="@+id/sms"
+        android:title="SMS Center"
+        app:showAsAction="never"
+        android:orderInCategory="20">
+    </item>
+
+    <item
+        android:id="@+id/map"
+        android:title="Location"
+        app:showAsAction="never"
+        android:orderInCategory="30">
+    </item>
+</menu>

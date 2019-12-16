@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BayarActivity">
+
+
+    <View
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Pembayaran"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/cardview_light_background"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/transaksi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Total Transaksi"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtTransaksi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/transaksi"
+            android:enabled="false"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/JmlBayar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Jumlah Pembayaran"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/txtJmlByr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:hint="Masukan Jml Pembayaran"
+            android:inputType="number"
+            android:text="" />
+
+
+        <TextView
+            android:id="@+id/Kembali"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Kembalian"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/txtKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:inputType="number"
+            android:text=""
+            android:textColor="#000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@color/colorAccent" />
+
+    </LinearLayout>
+
+</RelativeLayout>
